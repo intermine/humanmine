@@ -117,7 +117,7 @@
         <tr>
                <td>Human</td>
                <td>RNA-seq data for human tissues and significant variant-gene associations</td>
-               <td><a href="https://www.gtexportal.org.">GTex, Tissue specific gene expression and eQTLs</a></td>
+               <td><a href="https://www.gtexportal.org">GTex, Tissue specific gene expression and eQTLs</a></td>
                <td>July 2018</td>
        </tr>
 
