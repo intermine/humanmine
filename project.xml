@@ -6,50 +6,50 @@
   <property name="default.intermine.properties.file" location="../default.intermine.integrate.properties" />
 
   <sources>
-    <source name="ncbi-gene" type="ncbi-gene">
+    <source name="Homo sapiens gene information" type="ncbi-gene">
       <property name="src.data.dir" location="/micklem/data/ncbi/current" />
       <property name="organisms" value="9606" />
     </source>
-    <source name="hgnc" type="hgnc" version="4.0.0">
+    <source name="HGNC identifiers" type="hgnc" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/human/hgnc/current" />
     </source>
-    <source name="ncbi-summaries" type="ncbi-summaries" version="4.0.0">
+    <source name="Homo sapiens gene summaries" type="ncbi-summaries" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/ncbi/gene-summaries/current/" />
     </source>
-    <source name="mgi-identifiers" type="mgi-identifiers">
+    <source name="Mouse identifiers" type="mgi-identifiers">
       <property name="src.data.dir" location="/micklem/data/mgi-identifiers/current" />
     </source>
-    <source name="mgi-alleles" type="mgi-alleles" version="4.0.0">
+    <source name="Mouse alleles and phenotypes" type="mgi-alleles" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/mouse-pheno/current" />
     </source>
-    <source name="rgd-identifiers" type="rgd-identifiers">
+    <source name="Rat gene identifiers" type="rgd-identifiers">
       <property name="src.data.dir" location="/micklem/data/rgd-identifiers/current" />
     </source>
-    <source name="so" type="so">
+    <source name="Sequence Ontology" type="so">
       <property name="src.data.file" location="so.obo" />
     </source>
-    <source name="arrayexpress-atlas" type="arrayexpress-atlas" version="4.0.0">
+    <source name="E-MTAB-62" type="arrayexpress-atlas" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/array-express/E-MTAB-62-wrong-p-value/" />
     </source>
-    <source name="protein-atlas" type="protein-atlas" version="4.0.0">
+    <source name="The Human Protein Atlas tissue protein expression data" type="protein-atlas" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/protein-atlas/current" />
     </source>
-    <source name="protein-atlas-rna" type="protein-atlas-rna" version="4.0.0">
+    <source name="The Human Protein Atlas tissue mRNA expression data" type="protein-atlas-rna" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/protein-atlas/RNA-seq/current" />
     </source>    
-    <source name="atlas-express" type="atlas-express" version="4.0.0">
+    <source name="Illumina Body Map" type="atlas-express" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/atlas-express/" />
     </source>
-    <source name="uniprot" type="uniprot">
+    <source name="UniProt" type="uniprot">
       <property name="uniprot.organisms" value="9606 10090" />
       <property name="src.data.dir" location="/micklem/data/uniprot/current/" />
     </source>
-    <source name="uniprot-keywords" type="uniprot-keywords">
+    <source name="UniProt keywords" type="uniprot-keywords">
       <property name="src.data.dir" location="/micklem/data/uniprot/current" />
       <property name="src.data.dir.includes" value="keywlist.xml" />
     </source>
 
-    <source name="uniprot-fasta" type="fasta">
+    <source name="UniProt protein sequences" type="fasta">
      <!-- <property name="fasta.taxonId" value="7227 6239 7165 4932 9606 10090 10116 46245 7230 7240 7244 7245 7217 7220 7222 7234 7260 7238"/>-->
       <property name="fasta.taxonId" value="9606 10090 10116"/>
       <property name="fasta.className" value="org.intermine.model.bio.Protein"/>
@@ -64,7 +64,7 @@
     </source>
 
 <!-- has to be after UniProt because only loads protein domains for loaded proteins -->
-    <source name="protein2ipr" type="protein2ipr">
+    <source name="InterPro protein matches" type="protein2ipr">
      <property name="src.data.dir" location="/micklem/data/interpro/match_complete/current"/>
      <property name="src.data.dir.includes" value="protein2ipr.dat"/>
      <property name="protein2ipr.organisms" value="9606"/>
@@ -75,26 +75,26 @@
       <property name="src.data.dir" location="/micklem/data/signor/current" />
     </source>
 -->
-    <source name="interpro" type="interpro">
+    <source name="InterPro" type="interpro">
       <property name="src.data.dir" location="/micklem/data/interpro/current" />
     </source>
-    <source name="interpro-go" type="interpro-go">
+    <source name="InterPro GO annotation" type="interpro-go">
       <property name="src.data.dir" location="/micklem/data/interpro/ontology/current"/>
     </source>
-    <source name="psi-mi-ontology" type="psi-mi-ontology">
+    <source name="PSI Molecular Interactions" type="psi-mi-ontology">
       <property name="src.data.file" location="/micklem/data/psi/ontology/current/psi-mi.obo" />
     </source>
-    <source name="mammalian-phenotype-ontology" type="mammalian-phenotype-ontology">
+    <source name="Mammalian Phenotype Ontology" type="mammalian-phenotype-ontology">
       <property name="src.data.file" location="/micklem/data/metabolic/mouse-pheno/current/MPheno_OBO.obo" />
     </source>
-    <source name="go" type="go">
+    <source name="The Gene Ontology" type="go">
       <property name="src.data.file" location="/micklem/data/go-annotation/current/go-basic.obo" />
     </source>
-    <source name="go-annotation" type="go-annotation">
+    <source name="GO Annotation for Homo sapiens" type="go-annotation">
       <property name="src.data.dir" location="/micklem/data/go-annotation/current/human" />
       <property name="src.data.includes" value="**/gene_association*" />
     </source>
-    <source name="clinvar" type="clinvar" version="4.0.0">
+    <source name="ClinVar" type="clinvar" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/human/clinvar/current" />
       <property name="src.data.includes" value="variant_summary.txt" />
     </source>
@@ -104,37 +104,37 @@
       <property name="pdb.organisms" value="9606"/>
     </source>
 -->
-    <source name="psi-intact" type="psi">
+    <source name="IntAct molecular interactions" type="psi">
       <property name="src.data.dir" location="/micklem/data/psi/intact/current" />
       <property name="intact.organisms" value="9606" />
     </source>
-    <source name="psi-complexes" type="psi-complexes">
+    <source name="Macromolecular complexes" type="psi-complexes">
       <property name="src.data.dir" location="/micklem/data/psi/intact/complexes/current"/>
       <property name="complexes.source" value="uniprotkb"/>
     </source>
-    <source name="biogrid" type="biogrid">
+    <source name="BioGRID interactions" type="biogrid">
       <property name="src.data.dir" location="/micklem/data/biogrid/current" />
       <property name="src.data.dir.includes" value="*psi25.xml" />
       <property name="biogrid.organisms" value="9606 10090" />
     </source>
-    <source name="kegg-pathway" type="kegg-pathway">
+    <source name="KEGG pathways" type="kegg-pathway">
       <property name="src.data.dir" location="/micklem/data/metabolic/kegg/current" />
       <property name="kegg.organisms" value="9606 10090" />
     </source>
-    <source name="reactome" type="reactome">
+    <source name="Reactome pathways" type="reactome">
       <property name="src.data.dir" location="/micklem/data/reactome/current" />
       <property name="reactome.organisms" value="9606 10090" />
     </source>
-    <source name="panther" type="panther">
+    <source name="Orthologue and paralogue predictions from Panther" type="panther">
         <property name="src.data.dir" location="/micklem/data/panther/current"/>
         <property name="panther.organisms" value="9606"/>
         <property name="panther.homologues" value="7227 10090 6239 10116 7955 4932"/>
     </source>
-    <source name="huge-gwas" type="huge-gwas" version="4.0.0">
+    <source name="GWAS catalog" type="huge-gwas" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/huge/current" />
     </source>
 
-    <source name="ncbi-fasta" type="fasta">
+    <source name="Homo sapiens genome sequence" type="fasta">
       <property name="fasta.loaderClassName"
                 value="org.intermine.bio.dataconversion.NCBIFastaLoaderTask"/>
       <property name="fasta.taxonId" value="9606"/>
@@ -146,7 +146,7 @@
       <property name="fasta.includes" value="*.fa"/>
     </source>
 
-    <source name="ncbi-gff" type="ncbi-gff">
+    <source name="Homo sapiens genome annotation" type="ncbi-gff">
       <property name="gff3.taxonId" value="9606"/>
       <property name="gff3.seqClsName" value="Chromosome"/>
       <property name="gff3.dataSourceName" value="NCBI"/>
@@ -154,28 +154,28 @@
       <property name="src.data.dir" location="/micklem/data/human/gff/current"/>
     </source>
 
-    <source name="omim" type="omim">
+    <source name="OMIM diseases" type="omim">
       <property name="src.data.dir" location="/micklem/data/metabolic/omim/current" />
     </source>
-    <source name="hpo" type="hpo" version="4.0.0">
+    <source name="Human Phenotype Ontology" type="hpo" version="4.0.0">
       <property name="src.data.file" location="/micklem/data/hpo/current/hp.obo" />
     </source>
-    <source name="hpo-annotation" type="hpo-annotation" version="4.0.0">
+    <source name="Human Phenotype Ontology annotations" type="hpo-annotation" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/hpo/current" />
       <property name="hpo.disease.file" value="/micklem/data/metabolic/omim/current/mimTitles.txt" />
     </source>
 
-    <source name="orphanet" type="orphanet" dump="true" version="4.0.0">
+    <source name="Orphanet" type="orphanet" dump="true" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/human/orphanet/current" />
     </source>
 
-    <source name="pubmed-gene" type="pubmed-gene">
+    <source name="PubMed to gene mapping" type="pubmed-gene">
       <property name="src.data.dir" location="/micklem/data/pubmed/current" />
       <property name="pubmed.organisms" value="9606 10090" />
       <property name="src.data.dir.includes" value="gene2pubmed" />
     </source>
 
-    <source name="gtex" type="gtex" version="4.0.0">
+    <source name="GTEx Single-tissue cis-eQTL Data" type="gtex" version="4.0.0">
       <property name="src.data.dir" location="/micklem/data/human/GTEx/current" />
     </source>
 
