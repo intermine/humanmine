@@ -54,7 +54,7 @@
       <property name="fasta.taxonId" value="9606 10090 10116"/>
       <property name="fasta.className" value="org.intermine.model.bio.Protein"/>
       <property name="fasta.classAttribute" value="primaryAccession"/>
-      <property name="fasta.dataSetTitle" value="UniProt data set"/>
+      <property name="fasta.dataSetTitle" value="uniprot-fasta"/>
       <property name="fasta.dataSourceName" value="UniProt"/>
       <property name="src.data.dir" location="/micklem/data/uniprot/current"/>
       <property name="fasta.includes" value="uniprot_sprot_varsplic.fasta"/>
@@ -138,7 +138,7 @@
       <property name="fasta.loaderClassName"
                 value="org.intermine.bio.dataconversion.NCBIFastaLoaderTask"/>
       <property name="fasta.taxonId" value="9606"/>
-      <property name="fasta.dataSetTitle" value="Homo sapiens genome annotation, released 26th March 2018"/>
+      <property name="fasta.dataSetTitle" value="ncbi-fasta"/>
       <property name="fasta.dataSourceName" value="NCBI"/>
       <property name="fasta.className" value="org.intermine.model.bio.Chromosome"/>
       <property name="fasta.classAttribute" value="primaryIdentifier"/>
@@ -150,7 +150,7 @@
       <property name="gff3.taxonId" value="9606"/>
       <property name="gff3.seqClsName" value="Chromosome"/>
       <property name="gff3.dataSourceName" value="NCBI"/>
-      <property name="gff3.dataSetTitle" value="Release GRCh38 of the Homo sapiens genome sequence"/>
+      <property name="gff3.dataSetTitle" value="ncbi-gff/>
       <property name="src.data.dir" location="/micklem/data/human/gff/current"/>
     </source>
 
