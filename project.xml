@@ -160,7 +160,7 @@
       <property name="src.data.dir" location="/micklem/data/metabolic/omim/current" />
     </source>
 
-    <source name="hpo" type="hpo" version="4.0.0">
+    <source name="hpo" type="hpo" version="4.2.0">
       <property name="src.data.file" location="/micklem/data/hpo/current/hp.obo" />
     </source>
     <source name="hpo-annotation" type="hpo-annotation" version="4.2.0">
