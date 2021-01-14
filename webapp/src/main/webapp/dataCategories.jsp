@@ -34,13 +34,13 @@
                <td>Human</td>
                <td>Human genome sequence and annotation</td>
                <td><a href="http://www.ncbi.nlm.nih.gov">NCBI</a></td>
-               <td>GRCh38.p13; Annotation release 109.20200228</td>
+               <td>GRCh38.p13; Annotation release 109.20201120; November 2020</td>
        </tr>
        <tr>
                <td>Human, Mouse, Rat</td>
                <td>Gene names and symbol</td>
                <td><a href="http://www.genenames.org/">HGNC</a>, <a href="http://www.ncbi.nlm.nih.gov/gene/">NCBI</a>, <a href="http://www.informatics.jax.org/">MGI</a>, <a href="http://rgd.mcw.edu/">RGD</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
 
 
@@ -51,13 +51,13 @@
                <td>Human, Mouse</td>
                <td>Protein sequence and annotation</a></td>
                <td><a href="http://www.uniprot.org/">UniProt</a></td>
-               <td>Release 2020_02</td>
+               <td>Release 2020_06</td>
        </tr>
        <tr>
                <td>Human, Mouse</td>
                <td>Protein domains</td>
                <td><a href="http://www.ebi.ac.uk/interpro/">InterPro</a></td>
-               <td>79.0; April 2020</td>
+               <td>83.0; December 2020</td>
        </tr>
 
 
@@ -66,7 +66,7 @@
                <td>Human, Mouse</td>
                <td>Gene ontology annotations</td>     
                <td><a href="http://www.uniprot.org/">UniProt</a>, <a href="http://www.informatics.jax.org/">MGI</a>, <a href="http://www.geneontology.org/">GO Consortium</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
 
 
@@ -77,7 +77,7 @@
                <td>Human, Mouse</td>
                <td>Gene-pathway annotations from Reactome</td>
                <td><a href="http://www.reactome.org/">Reactome</a></td>
-               <td>April 2020, v72</td>
+               <td>December 2020, v72</td>
        </tr>
        <tr>
                <td>Human, Mouse</td>
@@ -91,14 +91,14 @@
                <td>Human</td>
                <td>Protein localisation</td>
                <td><a href="http://www.proteinatlas.org/">Human Protein Atlas (HPA)</a></td>
-               <td>April 2020, v19.3</td>
+               <td>November 2020, v20.0</td>
        </tr>
        <tr>
                
                <td>Human</td>
                <td>RNA-seq across human tissues</td>
                <td><a href="http://www.proteinatlas.org/">Human Protein Atlas (HPA)</a></td>
-               <td>April 2020, v19.3</td>
+               <td>November 2020, v20.0</td>
        </tr>
        <tr>
               
@@ -126,13 +126,13 @@
                <td>Human, Mouse</td>
                <td>Physical interaction data</td>
                <td><a href="http://www.ebi.ac.uk/intact/">IntAct</a></td>
-               <td>April 2020</td>
+               <td>December 2020; v4.2.16</td>
        </tr>
        <tr>
                <td>Human, Mouse</td>
                <td>Genetic and physical interaction data</td>
                <td><a href="http://thebiogrid.org/">BioGRID</a></td>
-               <td>Version 3.5.185; April 2020</td>
+               <td>Version 4.2.192; December 2020</td>
        </tr>
 
        <tr>
@@ -140,32 +140,32 @@
                <td>Human</td>
                <td>Gene-disease associations from Online Mendelian Inheritance in Man (OMIM)</td>
                <td><a href="http://www.omim.org/">OMIM</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
        <tr>
                <td>Human</td>
                <td>Gene-Phenotype annotations</td>
                <td><a href="http://www.human-phenotype-ontology.org/">HPO</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
        <tr>
                <td>Mouse</td>
                <td>Mouse alleles from MGI</td>
                <td><a href="http://www.informatics.jax.org/">MGI</a></td>
-               <td>April 2020</td>
+               <td>December 2020; v6.16</td>
        </tr>
        <tr>
                <td>Human</td>
                <td>Clinically significant sequence variants</td>
                <td><a href="https://www.ncbi.nlm.nih.gov/clinvar/">ClinVar</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
 
               <tr>
                <td>Human</td>      
                <td>Genome wide association studies</td>
                <td><a href="https://www.ebi.ac.uk/gwas/">GWAS catalog</a></td>
-               <td>April 2020, V1.0</td>
+               <td>December 2020, V1.0</td>
        </tr>
 
 
@@ -174,7 +174,7 @@
                <td>Human, Mouse, Rat, Drosophila, C. elegans, S.cerevisiae</td>
                <td>Orthologue and paralogue predictions between these organisms</td>
                <td><a href="http://www.pantherdb.org">Panther</a></td>
-               <td>April 2020, v15.0</td>
+               <td>December 2020, v15.0</td>
        </tr>
                       
         <tr>
@@ -182,7 +182,7 @@
                <td>Human, Mouse</td>
                <td>Gene to PubMed ID mappings</td>       
                <td><a href="ftp://ftp.ncbi.nih.gov/gene/DATA/">NCBI PubMed</a></td>
-               <td>April 2020</td>
+               <td>December 2020</td>
        </tr>
       
       
