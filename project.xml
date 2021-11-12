@@ -6,20 +6,20 @@
   <property name="default.intermine.properties.file" location="../default.intermine.integrate.properties" />
 
   <sources>
-    <source name="ncbi-gene" type="ncbi-gene">
+    <source name="ncbi-gene" type="ncbi-gene" >
       <property name="src.data.dir" location="/micklem/data/ncbi/current" />
       <property name="organisms" value="9606" />
     </source>
-    <source name="hgnc" type="hgnc" version="4.2.0">
+    <source name="hgnc" type="hgnc" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/human/hgnc/current" />
     </source>
-    <source name="ncbi-summaries" type="ncbi-summaries" version="4.2.0">
+    <source name="ncbi-summaries" type="ncbi-summaries" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/ncbi/gene-summaries/current/" />
     </source>
     <source name="mgi-identifiers" type="mgi-identifiers">
       <property name="src.data.dir" location="/micklem/data/mgi-identifiers/current" />
     </source>
-    <source name="mgi-alleles" type="mgi-alleles" version="4.2.0">
+    <source name="mgi-alleles" type="mgi-alleles" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/mouse-pheno/current" />
     </source>
     <source name="rgd-identifiers" type="rgd-identifiers">
@@ -28,16 +28,16 @@
     <source name="so" type="so">
       <property name="src.data.file" location="so.obo" />
     </source>
-    <source name="arrayexpress-atlas" type="arrayexpress-atlas" version="4.2.0">
+    <source name="arrayexpress-atlas" type="arrayexpress-atlas" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/array-express/E-MTAB-62-wrong-p-value/" />
     </source>
-    <source name="protein-atlas" type="protein-atlas" version="4.2.0">
+    <source name="protein-atlas" type="protein-atlas" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/protein-atlas/current" />
     </source>
-    <source name="protein-atlas-rna" type="protein-atlas-rna" version="4.2.0">
+    <source name="protein-atlas-rna" type="protein-atlas-rna" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/protein-atlas/RNA-seq/current" />
     </source>    
-    <source name="atlas-express" type="atlas-express" version="4.2.0">
+    <source name="atlas-express" type="atlas-express" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/atlas-express/" />
     </source>
     <source name="uniprot" type="uniprot">
@@ -94,7 +94,7 @@
       <property name="src.data.dir" location="/micklem/data/go-annotation/current/human" />
       <property name="src.data.includes" value="**/gene_association*" />
     </source>
-    <source name="clinvar" type="clinvar" version="4.2.0">
+    <source name="clinvar" type="clinvar" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/human/clinvar/current" />
       <property name="src.data.includes" value="variant_summary.txt" />
     </source>
@@ -116,7 +116,7 @@
     </source>
 -->
 
-    <source name="biogrid" type="biogrid" version="4.3.0" dump="true">
+    <source name="biogrid" type="biogrid" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/biogrid/current" />
       <property name="src.data.dir.includes" value="*psi25.xml" />
       <property name="biogrid.organisms" value="9606 10090" />
@@ -136,7 +136,7 @@
         <property name="panther.organisms" value="9606"/>
         <property name="panther.homologues" value="7227 10090 6239 10116 7955 4932"/>
     </source>
-    <source name="huge-gwas" type="huge-gwas" version="4.2.0">
+    <source name="huge-gwas" type="huge-gwas" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/metabolic/huge/current" />
     </source>
 
@@ -160,19 +160,19 @@
       <property name="src.data.dir" location="/micklem/data/human/gff/current"/>
     </source>
 
-    <source name="omim" type="omim" dump="true">
+    <source name="omim" type="omim" >
       <property name="src.data.dir" location="/micklem/data/metabolic/omim/current" />
     </source>
 
-    <source name="hpo" type="hpo" version="4.2.0">
+    <source name="hpo" type="hpo" version="4.3.0">
       <property name="src.data.file" location="/micklem/data/hpo/current/hp.obo" />
     </source>
-    <source name="hpo-annotation" type="hpo-annotation" version="4.2.0">
+    <source name="hpo-annotation" type="hpo-annotation" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/hpo/current" />
       <property name="hpo.disease.file" value="/micklem/data/metabolic/omim/current/mimTitles.txt" />
     </source>
 
-    <source name="orphanet" type="orphanet" version="4.2.0">
+    <source name="orphanet" type="orphanet" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/human/orphanet/current" />
     </source>
 
@@ -181,20 +181,23 @@
       <property name="pubmed.organisms" value="9606 10090" />
       <property name="src.data.dir.includes" value="gene2pubmed" />
     </source>
-<!--
-    <source name="disgenet-disease-associations" type="disgenet-disease-associations" version="4.2.0">
+
+    <source name="disgenet-disease-associations" type="disgenet-disease-associations" version="4.3.0">
       <property name="src.data.dir" location="/micklem/data/human/disgenet" />
     </source>
--->
-    <source name="gtex" type="gtex" version="4.2.0" dump="true">
+
+    <source name="depmap-sample-info" type="depmap-sample-info" version="4.3.0">
+       <property name="src.data.dir" location="/micklem/data/human/depmap" />
+     </source>
+     <source name="depmap-expression" type="depmap-expression" version="4.3.0">
+       <property name="src.data.dir" location="/micklem/data/human/depmap" />
+     </source>
+
+    <source name="gtex" type="gtex" version="4.3.0" dump="true">
       <property name="src.data.dir" location="/micklem/data/human/GTEx/current" />
     </source>
 
-    <source name="disgenet-disease-associations" type="disgenet-disease-associations" version="4.2.0">
-      <property name="src.data.dir" location="/micklem/data/human/disgenet" />
-    </source>
-
-    <source name="humanmine-static" type="humanmine-static" version="4.2.0">
+    <source name="humanmine-static" type="humanmine-static" version="4.3.0">
       <property name="src.data.file" location="/micklem/data/humanmine/datasets/git/humanmine-datasets/datasets.xml"/>
     </source>
 
