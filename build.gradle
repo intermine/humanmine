@@ -29,7 +29,7 @@ subprojects {
 	mavenCentral()
         jcenter()
         maven {
-            url 'http://www.ebi.ac.uk/intact/maven/nexus/content/repositories/ebi-repo/'
+            url 'https://www.ebi.ac.uk/Tools/maven/repos/content/groups/ebi-repo/'
         }
         maven { url 'https://clojars.org/repo' }
     }
