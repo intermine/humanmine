@@ -144,8 +144,6 @@
   <class className="org.intermine.model.bio.GWASResult">
     <fields>
       <fieldconfig fieldExpr="SNP.primaryIdentifier"/>
-      <fieldconfig fieldExpr="SNP.chromosomeLocation.start"/>
-      <fieldconfig fieldExpr="SNP.chromosome.primaryIdentifier"/>
       <fieldconfig fieldExpr="phenotype"/>
       <fieldconfig fieldExpr="pValue"/>
       <fieldconfig fieldExpr="study.firstAuthor"/>
